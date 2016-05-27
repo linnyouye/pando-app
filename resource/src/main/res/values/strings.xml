@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">For Sharer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- tab bar -->
+    <string name="tab_sharer">Sharer</string>
+    <string name="tab_topic">Topic</string>
+    <string name="tab_msg">Message</string>
+    <string name="tab_me">Me</string>
+
+    <!-- register and login -->
+    <string name="title_register">注册</string>
+    <string name="title_login">登录</string>
+    <string name="title_forget_password">找回密码</string>
+    <string name="to_register">注册新账号</string>
+    <string name="to_login">已有账号，直接登录</string>
+
+    <string name="hint_phone">手机号</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_new_password">请输入新密码</string>
+    <string name="hint_auth_code">短信验证码</string>
+    <string name="get_auth_code">获取短信验证码</string>
+
+
+    <!-- 我 -->
+    <string name="my_info">个人信息</string>
+    <string name="my_footprint">我的足迹</string>
+    <string name="my_book">我的书单</string>
+    <string name="my_setting">设置</string>
+    <string name="logout">退出登录</string>
+
+    <!-- 设置 -->
+    <string name="about">关于ForSharer</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="version">软件版本</string>
+    <string name="suggestion">意见反馈</string>
+
+    <string name="scan">扫一扫</string>
+
+    <string name="topic_comment">发表评论</string>
+    <string name="apply_for_book">申请借阅</string>
+    <string name="publish_sharer">发布书籍</string>
+    <string name="action_publish">发布</string>
+    <string name="book_cover">封面</string>
+    <string name="clip_image">图片裁剪</string>
+    <string name="book_author">作者</string>
+    <string name="book_comment">评语</string>
+    <string name="book_isbn">ISBN</string>
+    <string name="switch_campus">切换学校</string>
+    <string name="select_campus">选择学校</string>
+    <string name="select_profession">选择专业</string>
+    <string name="action_save">保存</string>
+
+    <!--我的信息-->
+    <string name="my_logo">头像</string>
+    <string name="my_name">姓名</string>
+    <string name="my_campus">学校</string>
+    <string name="my_profession">专业</string>
+</resources>
+

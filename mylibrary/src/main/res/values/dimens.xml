@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="rb_line_width">1px</dimen>
+    <dimen name="rb_radius">5dp</dimen>
+
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="BottomBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/bottom_bar_height</item>
+        <item name="android:background">@drawable/bg_bottom_bar</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="tab_item">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tab_icon">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="tab_text">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@drawable/bg_title_bar</item>
+    </style>
+
+    <style name="TitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:id">@id/title_text</item>
+        <item name="android:background">@drawable/bg_title_bar</item>
+    </style>
+
+    <style name="TitleImgBtn">
+        <item name="android:layout_width">@dimen/title_ibtn_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="TitleBackBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/title_btn_text</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/btn_back_text</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableLeft">@mipmap/ic_back</item>
+        <item name="android:id">@id/btnBack</item>
+    </style>
+
+    <style name="TitleActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/title_btn_text</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/btn_back_text</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

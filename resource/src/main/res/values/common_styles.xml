@@ -1,0 +1,83 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="ListItemText1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/list_item_text1</item>
+        <item name="android:textSize">@dimen/list_item_text1</item>
+    </style>
+
+    <style name="ListItemText2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/list_item_text2</item>
+        <item name="android:textSize">@dimen/list_item_text2</item>
+    </style>
+
+    <style name="LinearInputText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">#aaaaaa</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/item_title_text</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="BigButton">
+        <item name="android:minHeight">@dimen/linear_item_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginLeft">@dimen/ele_padding</item>
+        <item name="android:layout_marginRight">@dimen/ele_padding</item>
+        <item name="android:layout_marginBottom">@dimen/block_divider_height</item>
+    </style>
+
+    <style name="LinklikeButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/block_divider_height</item>
+        <item name="android:paddingLeft">@dimen/ele_padding</item>
+        <item name="android:paddingRight">@dimen/ele_padding</item>
+        <item name="android:textSize">@dimen/link_button_text</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/link_like_btn</item>
+    </style>
+
+    <style name="VerticalLinearBlock">
+        <item name="android:minHeight">@dimen/linear_item_height</item>
+        <item name="android:divider">@drawable/linearlayout_divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_block</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">@dimen/block_divider_height</item>
+    </style>
+
+
+    <style name="ScrollViewContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/block_divider_height</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearItem">
+        <item name="android:background">@drawable/linear_item_bg_selector</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:minHeight">@dimen/linear_item_height</item>
+    </style>
+
+</resources>

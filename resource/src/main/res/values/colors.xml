@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_text">#fff</color>
+    <color name="activity_bg">#f0f0f0</color>
+    <color name="linear_item_edge">#c5c5c5</color>
+    <color name="linear_item_divider">#e5e5e5</color>
+    <color name="linear_item_bg_normal">#ffffff</color>
+    <color name="linear_item_bg_pressed">#f0f0f0</color>
+    <color name="btn_back_text_normal">#ffffff</color>
+    <color name="btn_back_text_pressed">#883333ff</color>
+
+    <color name="list_item_pressed">#FFFFFF</color>
+    <color name="list_item_divider">#bbbbbb</color>
+    <color name="list_item_text1_normal">#777</color>
+    <color name="list_item_text1_pressed">#883333ff</color>
+    <color name="list_item_text2_normal">#aaa</color>
+    <color name="list_item_text2_pressed">#883333ff</color>
+    <color name="blue_normal">#cc33a3dc</color>
+    <color name="blue_pressed">#cc2468a2</color>
+    <color name="green_normal">#33bb33</color>
+    <color name="green_pressed">#336a2f</color>
+    <color name="red_normal">#88ff0000</color>
+    <color name="red_pressed">#eeff0000</color>
+    <color name="link_like_normal">#883333ff</color>
+    <color name="link_like_pressed">#333333</color>
+    <color name="radiogroup_line">#1fb8ff</color>
+    <color name="rb_checked">#bb1fb8ff</color>
+    <color name="rb_normal">#00ffffff</color>
+
+    <color name="tab_text_normal">#a9b7b7</color>
+    <color name="tab_text_selected">#56abe4</color>
+
+    <color name="status_bar">#1E90FF</color>
+
+</resources>

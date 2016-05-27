@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="MyTheme" parent="android:Theme.NoTitleBar"></style>
+
+    <style name="SwipeBackTheme" parent="MyTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

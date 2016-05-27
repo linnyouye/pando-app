@@ -1,0 +1,13 @@
+<resources>
+    <!--Linear item-->
+    <color name="item_title_text_normal">#333333</color>
+    <color name="item_title_text_pressed">#883333ff</color>
+    <color name="item_content_text_normal">#999999</color>
+    <color name="item_content_text_pressed">#883333ff</color>
+
+    <!--Horizontal RadioGroup-->
+    <color name="rb_checked">#efff</color>
+    <color name="rb_normal">#00ffffff</color>
+    <color name="radiogroup_line">#efff</color>
+
+</resources>

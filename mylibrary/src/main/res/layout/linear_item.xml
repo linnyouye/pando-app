@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="30dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tvItemTitle"
+        style="@style/LinearItemTitle" />
+
+    <TextView
+        android:id="@+id/tvItemContent"
+        style="@style/LinearItemContent" />
+
+    <ImageView
+        android:id="@+id/imgArrows"
+        style="@style/LinearItemArrow" />
+
+    <com.lyy.mylibrary.ui.SlideSwitch
+        android:id="@+id/slideSwitch"
+        android:layout_width="60dp"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

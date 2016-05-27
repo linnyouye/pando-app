@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_activity"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/TitleBar">
+
+            <TextSwitcher
+                style="@style/TitleTextView"
+                android:layout_width="match_parent"></TextSwitcher>
+
+        </RelativeLayout>
+
+        <com.lyy.mylibrary.ui.OverScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout style="@style/ScrollViewContainer">
+
+                <LinearLayout style="@style/VerticalLinearBlock">
+
+                    <LinearLayout
+                        style="@style/LinearItem"
+                        android:clickable="false"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            style="@style/LinearItemIcon"
+                            android:src="@mipmap/ic_phone" />
+
+                        <com.lyy.mylibrary.ui.ClearEditText
+                            android:id="@+id/et_phone"
+                            style="@style/LinearInputText"
+                            android:hint="@string/hint_phone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/LinearItem"
+                        android:clickable="false"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            style="@style/LinearItemIcon"
+                            android:src="@mipmap/ic_password" />
+
+                        <com.lyy.mylibrary.ui.ClearEditText
+                            android:id="@+id/et_password"
+                            style="@style/LinearInputText"
+                            android:hint="@string/hint_password"
+                            android:inputType="textPassword" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/auth_code_view"
+                        style="@style/LinearItem"
+                        android:clickable="false"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            style="@style/LinearItemIcon"
+                            android:src="@mipmap/ic_auth_code" />
+
+                        <com.lyy.mylibrary.ui.ClearEditText
+                            android:id="@+id/et_auth_code"
+                            style="@style/LinearInputText"
+                            android:hint="@string/hint_auth_code"
+                            android:inputType="number" />
+
+                        <Button
+                            android:id="@+id/btn_auth_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_green_selector"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="@string/get_auth_code"
+                            android:textColor="#fff"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    style="@style/BigButton"
+                    android:background="@drawable/btn_blue_selector" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_left"
+                        style="@style/LinklikeButton" />
+
+                    <Button
+                        android:id="@+id/btn_right"
+                        style="@style/LinklikeButton"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.lyy.mylibrary.ui.OverScrollView>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/launcher_view"
+        layout="@layout/activity_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

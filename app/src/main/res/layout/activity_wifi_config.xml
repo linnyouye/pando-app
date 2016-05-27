@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/TitleBar">
+
+        <TextView
+            style="@style/TitleTextView"
+            android:text="WiFi配置" />
+
+
+    </RelativeLayout>
+
+    <com.lyy.mylibrary.ui.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/ScrollViewContainer">
+
+            <EditText
+                android:id="@+id/et_ssid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="you_360"
+                android:hint="无线名称" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:text="qwertyuiop()"
+                android:layout_height="50dp"
+                android:hint="无线密码" />
+
+            <Button
+                android:id="@+id/btn_config"
+                style="@style/BigButton"
+                android:text="开始配置"
+                android:background="@drawable/btn_green_selector" />
+
+
+        </LinearLayout>
+    </com.lyy.mylibrary.ui.OverScrollView>
+
+</LinearLayout>
